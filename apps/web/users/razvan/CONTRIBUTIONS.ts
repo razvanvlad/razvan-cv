@@ -5,7 +5,7 @@ export const CONTRIBUTIONS: Contribution[] = [
       name: 'Startup Nation Grant (€44,000)',
       description:
          'Won the StartUp Nation grant in 2017 to launch Softsite. Delivered and closed the project on time and on budget.',
-      link: 'https://softsite.co.uk',
+      link: 'https://softsite.ro',
    },
    {
       name: 'UnlockPlatform (SaaS)',

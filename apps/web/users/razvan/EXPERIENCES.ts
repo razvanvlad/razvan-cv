@@ -3,7 +3,7 @@ import { Experience } from '../../types/Experience'
 export const EXPERIENCES: Experience[] = [
    {
       company: 'Softsite',
-      link: 'https://softsite.co.uk',
+      link: 'https://softsite.ro',
       badges: ['Agency', 'B2B/Contract', 'Full-time'],
       title: 'Founder & Lead Developer',
       logo: undefined,

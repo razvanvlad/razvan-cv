@@ -68,12 +68,12 @@ export const RESUME: Resume = {
    ],
    helpLink: 'https://www.linkedin.com/in/razvanvladpop',
 
-   website: 'https://softsite.co.uk',
+   website: 'https://softsite.ro',
 
    contact: {
-      website: 'https://softsite.co.uk',
+      website: 'https://softsite.ro',
       email: 'razvanvladpop@gmail.com',
-      phone: '+40 727 999 900',
+      phone: '+40 756762169',
       linkedin: 'https://www.linkedin.com/in/razvanvladpop',
       github: 'https://github.com/razvanvlad',
       socials: [

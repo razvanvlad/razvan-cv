@@ -3,7 +3,7 @@ import { Project } from '../../types/Project'
 export const PROJECTS: Project[] = [
    {
       company: 'CDA Group',
-      link: 'https://softsite.co.uk', // Fallback or site link
+      link: 'https://cda-frontend-nine.vercel.app/', // Fallback or site link
       image: undefined,
       badges: [
          'Next.js 15',
