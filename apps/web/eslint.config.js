@@ -19,6 +19,7 @@ module.exports = [
          '**/dist/**',
          '**/build/**',
          '**/.turbo/**',
+         '**/out/**',
       ],
    },
    js.configs.recommended,

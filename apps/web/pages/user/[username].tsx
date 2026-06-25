@@ -1,10 +1,5 @@
-import {
-   GetServerSidePropsContext,
-   NextApiRequest,
-   NextApiResponse,
-} from 'next'
+import { GetStaticPaths, GetStaticProps } from 'next'
 import { NextSeo } from 'next-seo'
-import { appRouter } from '@cv/trpc/server/router/_app'
 import { CV } from '../../components/organism'
 import { Resume } from '../../types'
 import {
@@ -16,7 +11,7 @@ import {
    getAudienceCompanies,
 } from '../../constants'
 import { ComprehensiveJsonLd } from '../../utils/seo'
-import { getUserResume } from '../../utils/users'
+import { getUserResume, getAvailableUsers } from '../../utils/users'
 import { useMemo } from 'react'
 
 interface UserPageProps {
@@ -138,11 +133,19 @@ export default function UserPage({ resume, username }: UserPageProps) {
    )
 }
 
-export const getServerSideProps = async ({
-   req,
-   res,
-   params,
-}: GetServerSidePropsContext) => {
+export const getStaticPaths: GetStaticPaths = async () => {
+   const usernames = getAvailableUsers()
+   const paths = usernames.map((username) => ({
+      params: { username },
+   }))
+
+   return {
+      paths,
+      fallback: false,
+   }
+}
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
    const username = params?.username as string
 
    if (!username) {
@@ -159,23 +162,6 @@ export const getServerSideProps = async ({
          notFound: true,
       }
    }
-
-   // Create caller for potential server-side tRPC calls
-   const _caller = appRouter.createCaller({
-      mongo: {} as any,
-      ip: '127.0.0.1',
-      md: {} as any,
-      mail: {} as any,
-      telegram: {} as any,
-      req: req as NextApiRequest,
-      res: res as NextApiResponse,
-   })
-
-   // Set cache headers for better performance
-   res.setHeader(
-      'Cache-Control',
-      'public, s-maxage=3600, stale-while-revalidate=7200'
-   )
 
    return {
       props: {

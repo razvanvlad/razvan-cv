@@ -1,10 +1,4 @@
-import {
-   GetServerSidePropsContext,
-   NextApiRequest,
-   NextApiResponse,
-} from 'next'
 import { NextSeo } from 'next-seo'
-import { appRouter } from '@cv/trpc/server/router/_app'
 import { CV } from '../components/organism'
 import { RESUME } from '../users'
 import {
@@ -246,24 +240,7 @@ export default function Home() {
    )
 }
 
-export const getServerSideProps = async ({
-   req,
-   res,
-}: GetServerSidePropsContext) => {
-   // Create caller for potential server-side tRPC calls
-   const _caller = appRouter.createCaller({
-      mongo: {} as any, // Simplified context
-      ip: '127.0.0.1',
-      md: {} as any,
-      mail: {} as any,
-      telegram: {} as any,
-      req: req as NextApiRequest,
-      res: res as NextApiResponse,
-   })
-
-   // You can now call tRPC procedures directly on the server
-   // const data = await _caller.someRouter.someQuery({ input });
-
+export const getStaticProps = async () => {
    return {
       props: {},
    }

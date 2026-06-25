@@ -1,5 +1,6 @@
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
+   ignorePatterns: ['out/', '.next/', 'node_modules/'],
    extends: [
       'next/core-web-vitals',
       'plugin:jsx-a11y/strict',

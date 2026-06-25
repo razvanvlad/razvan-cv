@@ -4,7 +4,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 const moduleExports = {
    reactStrictMode: false,
+   output: 'export',
    images: {
+      unoptimized: true,
       remotePatterns: [
          {
             protocol: 'https',

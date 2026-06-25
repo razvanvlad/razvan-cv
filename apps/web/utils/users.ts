@@ -52,7 +52,7 @@ export const getAvailableUsers = (): string[] => {
    } catch (error) {
       console.error('Error reading users directory:', error)
       // Fallback to default user if directory reading fails
-      return ['idimetrix']
+      return ['razvan']
    }
 }
 
