@@ -3,7 +3,7 @@ import { Resume } from '../../types'
 import { cn } from '@cv/lib'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe } from '@fortawesome/pro-solid-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
    resume: Resume

@@ -1,6 +1,6 @@
 {
   "name": "@cv/lib",
-  "author": "Dmitrii Selikhov <dmitrii.selikhov@gmail.com>",
+  "author": "Pop Razvan Vlad <razvanvladpop@gmail.com>",
   "version": "0.0.0",
   "main": "./index.ts",
   "types": "./index.ts",

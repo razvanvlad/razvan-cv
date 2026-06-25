@@ -93,5 +93,5 @@ export const getUserResume = async (
  * Always returns 'idimetrix' as the primary user
  */
 export const getDefaultUser = (): string => {
-   return 'idimetrix'
+   return 'razvan'
 }

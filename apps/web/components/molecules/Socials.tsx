@@ -2,8 +2,8 @@ import { HTMLAttributes, memo } from 'react'
 import { Resume } from '../../types'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone, faGlobe } from '@fortawesome/pro-solid-svg-icons'
-import { faCalendarDays } from '@fortawesome/pro-regular-svg-icons'
+import { faEnvelope, faPhone, faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faCalendarDays } from '@fortawesome/free-regular-svg-icons'
 import { cn } from '@cv/lib'
 
 interface Props extends HTMLAttributes<HTMLDivElement> {

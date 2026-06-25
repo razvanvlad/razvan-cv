@@ -4,11 +4,10 @@ import { Resume } from '../../types'
 import { cn } from '@cv/lib'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-   faFilePng,
-   faFileJpg,
-   faFileSvg,
+   faFileImage,
+   faFileCode,
    faHome,
-} from '@fortawesome/pro-solid-svg-icons'
+} from '@fortawesome/free-solid-svg-icons'
 import { RESUME } from '../../users'
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
@@ -150,7 +149,7 @@ export const Actions = memo<Props>(({ resume, className, ...rest }) => {
                title="Export as SVG"
                className="transition-all bg-white uppercase duration-300 hover:bg-black hover:text-white w-[24px] h-[24px] items-center justify-center flex"
             >
-               <FontAwesomeIcon icon={faFileSvg} className="h-4 w-4" />
+               <FontAwesomeIcon icon={faFileCode} className="h-4 w-4" />
             </button>
             <button
                onClick={exportHandler('png')}
@@ -159,7 +158,7 @@ export const Actions = memo<Props>(({ resume, className, ...rest }) => {
                title="Export as PNG"
                className="transition-all bg-white uppercase duration-300 hover:bg-black hover:text-white w-[24px] h-[24px] items-center justify-center flex"
             >
-               <FontAwesomeIcon icon={faFilePng} className="h-4 w-4" />
+               <FontAwesomeIcon icon={faFileImage} className="h-4 w-4" />
             </button>
             <button
                onClick={exportHandler('jpg')}
@@ -168,7 +167,7 @@ export const Actions = memo<Props>(({ resume, className, ...rest }) => {
                title="Export as JPG"
                className="transition-all bg-white uppercase duration-300 hover:bg-black hover:text-white w-[24px] h-[24px] items-center justify-center flex"
             >
-               <FontAwesomeIcon icon={faFileJpg} className="h-4 w-4" />
+               <FontAwesomeIcon icon={faFileImage} className="h-4 w-4" />
             </button>
          </div>
       </div>

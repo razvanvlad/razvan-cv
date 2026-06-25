@@ -1,6 +1,6 @@
 {
   "name": "@cv/config",
-  "author": "Dmitrii Selikhov <dmitrii.selikhov@gmail.com>",
+  "author": "Pop Razvan Vlad <razvanvladpop@gmail.com>",
   "sideEffects": false,
   "version": "0.0.0",
   "main": "index.js",

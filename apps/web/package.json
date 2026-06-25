@@ -1,15 +1,15 @@
 {
    "name": "@cv/web",
    "author": {
-      "name": "Dmitrii Selikhov",
-      "email": "dmitrii.selikhov@gmail.com",
-      "url": "https://www.linkedin.com/in/dimetrix"
+      "name": "Pop Razvan Vlad",
+      "email": "razvanvladpop@gmail.com",
+      "url": "https://www.linkedin.com/in/razvanvladpop"
    },
    "contributors": [
       {
-         "name": "Dmitry (Di) Selikhov",
-         "email": "dmitrii.selikhov@gmail.com",
-         "url": "https://www.linkedin.com/in/dimetrix"
+         "name": "Pop Razvan Vlad",
+         "email": "razvanvladpop@gmail.com",
+         "url": "https://www.linkedin.com/in/razvanvladpop"
       }
    ],
    "version": "1.0.0",
@@ -40,13 +40,7 @@
       "@fortawesome/free-brands-svg-icons": "7.1.0",
       "@fortawesome/free-regular-svg-icons": "7.1.0",
       "@fortawesome/free-solid-svg-icons": "7.1.0",
-      "@fortawesome/pro-duotone-svg-icons": "7.1.0",
-      "@fortawesome/pro-light-svg-icons": "7.1.0",
-      "@fortawesome/pro-regular-svg-icons": "7.1.0",
-      "@fortawesome/pro-solid-svg-icons": "7.1.0",
-      "@fortawesome/pro-thin-svg-icons": "7.1.0",
       "@fortawesome/react-fontawesome": "3.1.0",
-      "@fortawesome/sharp-solid-svg-icons": "7.1.0",
       "@headlessui/react": "2.2.9",
       "@hookform/resolvers": "5.2.2",
       "@radix-ui/react-accordion": "1.2.12",

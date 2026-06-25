@@ -1,7 +1,7 @@
 import { cn } from '@cv/lib'
 import { trpc } from '@cv/trpc/react'
 import { config } from '@fortawesome/fontawesome-svg-core'
-import { faSpinnerThird } from '@fortawesome/pro-duotone-svg-icons'
+import { faSpinner } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Analytics } from '@vercel/analytics/react'
 import { NextPage } from 'next'
@@ -79,7 +79,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
       () => (
          <div className="flex h-screen w-full items-center justify-center">
             <FontAwesomeIcon
-               icon={faSpinnerThird}
+               icon={faSpinner}
                className="fa-spin h-8 w-8 text-black"
             />
          </div>

@@ -81,27 +81,9 @@ importers:
       '@fortawesome/free-solid-svg-icons':
         specifier: 7.1.0
         version: 7.1.0
-      '@fortawesome/pro-duotone-svg-icons':
-        specifier: 7.1.0
-        version: 7.1.0
-      '@fortawesome/pro-light-svg-icons':
-        specifier: 7.1.0
-        version: 7.1.0
-      '@fortawesome/pro-regular-svg-icons':
-        specifier: 7.1.0
-        version: 7.1.0
-      '@fortawesome/pro-solid-svg-icons':
-        specifier: 7.1.0
-        version: 7.1.0
-      '@fortawesome/pro-thin-svg-icons':
-        specifier: 7.1.0
-        version: 7.1.0
       '@fortawesome/react-fontawesome':
         specifier: 3.1.0
         version: 3.1.0(@fortawesome/fontawesome-svg-core@7.1.0)(react@19.2.0)
-      '@fortawesome/sharp-solid-svg-icons':
-        specifier: 7.1.0
-        version: 7.1.0
       '@headlessui/react':
         specifier: 2.2.9
         version: 2.2.9(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -1561,36 +1543,12 @@ packages:
     resolution: {integrity: sha512-Udu3K7SzAo9N013qt7qmm22/wo2hADdheXtBfxFTecp+ogsc0caQNRKEb7pkvvagUGOpG9wJC1ViH6WXs8oXIA==}
     engines: {node: '>=6'}
 
-  '@fortawesome/pro-duotone-svg-icons@7.1.0':
-    resolution: {integrity: sha512-b1EnUNQRoAiU+R+7BGc1G/GLacsrMsoDZgZ0+HcGYA9sMJ/JqmYCTcV8zLCPcRkOnj4h9e5dPRpIlzVmVNHOiw==}
-    engines: {node: '>=6'}
-
-  '@fortawesome/pro-light-svg-icons@7.1.0':
-    resolution: {integrity: sha512-K2xEoP/GrYQoFvPoBBO5qT+vSM66KKWUMOlkNqv9hU+6c/I+b8NyhpmuMKTlKUzcLFTbb6Byded0hGMbpTYh8g==}
-    engines: {node: '>=6'}
-
-  '@fortawesome/pro-regular-svg-icons@7.1.0':
-    resolution: {integrity: sha512-+yMCXJC7PhGsZPrGB7WA+wx+weEgCOdsMVezY8cU1hpoepvnrDemzsnqeFZnq6PY1bRuW1jooVcJX+KfkU68LA==}
-    engines: {node: '>=6'}
-
-  '@fortawesome/pro-solid-svg-icons@7.1.0':
-    resolution: {integrity: sha512-0rbSgBRWnArZ5LJWSHKvXZdRNCeA1opSODBL/lGP70Kog4WBEUqBjnqoEjBfu5lIzGLk8XCygDqMlIvz2kNIVQ==}
-    engines: {node: '>=6'}
-
-  '@fortawesome/pro-thin-svg-icons@7.1.0':
-    resolution: {integrity: sha512-MYjCK5oAYswf71tbI2NrXVyylm3ERUC/HpgL1J/04QZfP3irxLG2rLDgUIPYX3Oxf1EPzx8WkdnT9B60JbveCw==}
-    engines: {node: '>=6'}
-
   '@fortawesome/react-fontawesome@3.1.0':
     resolution: {integrity: sha512-5OUQH9aDH/xHJwnpD4J7oEdGvFGJgYnGe0UebaPIdMW9UxYC/f5jv2VjVEgnikdJN0HL8yQxp9Nq+7gqGZpIIA==}
     engines: {node: '>=20'}
     peerDependencies:
       '@fortawesome/fontawesome-svg-core': ~6 || ~7
       react: ^18.0.0 || ^19.0.0
-
-  '@fortawesome/sharp-solid-svg-icons@7.1.0':
-    resolution: {integrity: sha512-8WBfuFMAtFYJH2vmO/PmB+5YW3VplgNI/rqvQa1+8L516k7TcVE7retV7RVtm2bQqhAwElF51ZJQy34BohhulA==}
-    engines: {node: '>=6'}
 
   '@headlessui/react@2.2.9':
     resolution: {integrity: sha512-Mb+Un58gwBn0/yWZfyrCh0TJyurtT+dETj7YHleylHk5od3dv2XqETPGWMyQ5/7sYN7oWdyM1u9MvC0OC8UmzQ==}
@@ -6367,7 +6325,7 @@ packages:
 
   uuid@3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
-    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@8.0.0:
@@ -7998,34 +7956,10 @@ snapshots:
     dependencies:
       '@fortawesome/fontawesome-common-types': 7.1.0
 
-  '@fortawesome/pro-duotone-svg-icons@7.1.0':
-    dependencies:
-      '@fortawesome/fontawesome-common-types': 7.1.0
-
-  '@fortawesome/pro-light-svg-icons@7.1.0':
-    dependencies:
-      '@fortawesome/fontawesome-common-types': 7.1.0
-
-  '@fortawesome/pro-regular-svg-icons@7.1.0':
-    dependencies:
-      '@fortawesome/fontawesome-common-types': 7.1.0
-
-  '@fortawesome/pro-solid-svg-icons@7.1.0':
-    dependencies:
-      '@fortawesome/fontawesome-common-types': 7.1.0
-
-  '@fortawesome/pro-thin-svg-icons@7.1.0':
-    dependencies:
-      '@fortawesome/fontawesome-common-types': 7.1.0
-
   '@fortawesome/react-fontawesome@3.1.0(@fortawesome/fontawesome-svg-core@7.1.0)(react@19.2.0)':
     dependencies:
       '@fortawesome/fontawesome-svg-core': 7.1.0
       react: 19.2.0
-
-  '@fortawesome/sharp-solid-svg-icons@7.1.0':
-    dependencies:
-      '@fortawesome/fontawesome-common-types': 7.1.0
 
   '@headlessui/react@2.2.9(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
