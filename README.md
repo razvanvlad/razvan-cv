@@ -16,20 +16,25 @@ This repository hosts the source code for my professional CV and online presence
 Get the CV application running locally:
 
 ### 1. Install Dependencies
+
 ```bash
 pnpm install
 ```
 
 ### 2. Start Development Server
+
 ```bash
 pnpm web:dev
 ```
+
 Open [http://localhost:3000](http://localhost:3000) (or the port shown in your terminal if 3000 is occupied) to preview the CV with hot-reloading as you make edits.
 
 ### 3. Build for Production
+
 ```bash
 pnpm web:build
 ```
+
 This builds the Next.js production bundle and generates sitemaps automatically.
 
 ---
@@ -47,6 +52,7 @@ This builds the Next.js production bundle and generates sitemaps automatically.
 ## ✏️ Updating Your CV Content
 
 To modify the content shown on the CV, edit the TypeScript files in `apps/web/users/razvan/`:
+
 - `index.ts` - Basic info, professional summary, contact links, and SEO keywords.
 - `EXPERIENCES.ts` - Career history and details.
 - `PROJECTS.ts` - Key project highlights and stacks.

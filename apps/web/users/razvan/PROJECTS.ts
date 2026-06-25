@@ -47,19 +47,13 @@ export const PROJECTS: Project[] = [
       company: 'Elcartelauto SRL',
       link: 'https://elcartelauto.ro',
       image: undefined,
-      badges: [
-         'Next.js 15',
-         'TypeScript',
-         'Tailwind CSS',
-         'Node.js',
-         'cPanel',
-      ],
+      badges: ['Next.js 15', 'TypeScript', 'Tailwind CSS', 'Node.js', 'cPanel'],
       title: 'El Cartel Auto - Next.js on Shared cPanel Hosting',
       logo: undefined,
       start: 'Apr 2026',
       end: 'Apr 2026',
       description:
-         'Deployed a Next.js app on shared cPanel hosting, writing custom post-build scripts to resolve asset path conflicts. Generated 7 SEO-optimized partner pages from a single typed config, implemented real-time open/closed status computed on the server, and integrated owner\'s Instagram feed for automatic gallery updates.',
+         "Deployed a Next.js app on shared cPanel hosting, writing custom post-build scripts to resolve asset path conflicts. Generated 7 SEO-optimized partner pages from a single typed config, implemented real-time open/closed status computed on the server, and integrated owner's Instagram feed for automatic gallery updates.",
    },
    {
       company: 'Mobila Ideala',

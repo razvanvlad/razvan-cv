@@ -1,8 +1,5 @@
 import { Resume } from '../../types'
-import {
-   faLinkedin,
-   faGithub,
-} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { SKILLS } from './SKILLS'
 import { LOCATIONS } from './LOCATIONS'
 import { LANGUAGES } from './LANGUAGES'
@@ -35,11 +32,11 @@ export const RESUME: Resume = {
    about: [
       {
          description:
-            'Hands-on full-stack developer, 8+ years in, with 60+ projects shipped for clients in ecommerce, fintech, insurance, and SaaS. Strongest in React, Next.js and WordPress, including projects that decouple the two through GraphQL and ACF Pro. I run a small agency (Softsite) where I own architecture, development, design and deployment, and handle client communication directly in fluent English. I\'ve also built my own products from scratch and worked closely with startups, so I\'m comfortable taking something from idea to launch. Now looking to focus that experience inside an established product or engineering team.',
+            "Hands-on full-stack developer, 8+ years in, with 60+ projects shipped for clients in ecommerce, fintech, insurance, and SaaS. Strongest in React, Next.js and WordPress, including projects that decouple the two through GraphQL and ACF Pro. I run a small agency (Softsite) where I own architecture, development, design and deployment, and handle client communication directly in fluent English. I've also built my own products from scratch and worked closely with startups, so I'm comfortable taking something from idea to launch. Now looking to focus that experience inside an established product or engineering team.",
       },
       {
          description:
-            'Focused on performance, design, rich features and production stability. I\'ve worked on high-volume backend systems and projects that require smart solutions. Daily user of Claude Code, MCP servers and AI-assisted workflows to ship faster without losing code quality.',
+            "Focused on performance, design, rich features and production stability. I've worked on high-volume backend systems and projects that require smart solutions. Daily user of Claude Code, MCP servers and AI-assisted workflows to ship faster without losing code quality.",
       },
    ],
    aboutLink: 'https://www.linkedin.com/in/razvanvladpop',

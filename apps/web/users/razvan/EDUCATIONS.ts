@@ -9,7 +9,8 @@ export const EDUCATIONS: Education[] = [
       logo: undefined,
       start: '2022',
       end: '2025',
-      description: 'Coursework focusing on Computer Science, Information Systems, and Economic Studies.',
+      description:
+         'Coursework focusing on Computer Science, Information Systems, and Economic Studies.',
    },
    {
       company: 'Google',
@@ -19,7 +20,8 @@ export const EDUCATIONS: Education[] = [
       logo: undefined,
       start: 'Dec 2025',
       end: 'Dec 2025',
-      description: 'Intensive course on developing agentic AI workflows and LLM applications.',
+      description:
+         'Intensive course on developing agentic AI workflows and LLM applications.',
    },
    {
       company: 'DeepLearning.AI',
@@ -29,7 +31,8 @@ export const EDUCATIONS: Education[] = [
       logo: undefined,
       start: '2024',
       end: '2024',
-      description: 'Advanced prompt engineering techniques for developer productivity and systems integration.',
+      description:
+         'Advanced prompt engineering techniques for developer productivity and systems integration.',
    },
    {
       company: 'Udemy',
@@ -39,7 +42,8 @@ export const EDUCATIONS: Education[] = [
       logo: undefined,
       start: '2023',
       end: '2023',
-      description: 'Comprehensive guide covering React Core, Hooks, Redux, React Router, Next.js, and testing.',
+      description:
+         'Comprehensive guide covering React Core, Hooks, Redux, React Router, Next.js, and testing.',
    },
    {
       company: 'Coursera',
@@ -49,6 +53,7 @@ export const EDUCATIONS: Education[] = [
       logo: undefined,
       start: '2022',
       end: '2022',
-      description: 'Professional certificate program covering UX research, wireframing, high-fidelity design, and prototyping in Figma.',
+      description:
+         'Professional certificate program covering UX research, wireframing, high-fidelity design, and prototyping in Figma.',
    },
 ]
